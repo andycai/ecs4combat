@@ -33,7 +33,7 @@ namespace ecs
         /// 从池中获取实体
         /// </summary>
         /// <param name="type">实体类型</param>
-        /// <returns>组件</returns>
+        /// <returns>实体</returns>
         public Entity Get(EntityType type)
         {
             var index = (int)type;
@@ -56,9 +56,9 @@ namespace ecs
         }
 
         /// <summary>
-        /// 回收组件
+        /// 回收实体
         /// </summary>
-        /// <param name="entity">要回收的组件</param>
+        /// <param name="entity">要回收的实体</param>
         public void Recycle(Entity entity)
         {
             var index = (int)entity.Type;
