@@ -75,3 +75,11 @@ crashlytics-build.properties
 Properties/
 bin/
 Program.cs
+Ecs/obj/
+Ecs/bin/
+Logic/obj/
+Logic/bin/
+View/obj/
+View/bin/
+Event/obj/
+Event/bin/
