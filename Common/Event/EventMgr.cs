@@ -1,6 +1,6 @@
 using System;
 
-namespace Event 
+namespace Common.Event 
 {
     /// <summary>
     /// 事件管理器
